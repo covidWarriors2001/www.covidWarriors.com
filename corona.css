@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800|Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800|Yeseva+One&display=swap");
+
+.box16{text-align:center;color:#fff;position:relative}
+.box16 .box-content,.box16:after{width:100%;position:absolute;left:0}
+.box16:after{content:"";height:100%;background:linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.08) 69%,rgba(0,0,0,.76) 100%);top:0;transition:all .5s ease 0s}
+.box16 .post,.box16 .title{transform:translateY(145px);transition:all .4s cubic-bezier(.13,.62,.81,.91) 0s}
+.box16:hover:after{background:linear-gradient(to bottom,rgba(0,0,0,.01) 0,rgba(0,0,0,.09) 11%,rgba(0,0,0,.12) 13%,rgba(0,0,0,.19) 20%,rgba(0,0,0,.29) 28%,rgba(0,0,0,.29) 29%,rgba(0,0,0,.42) 38%,rgba(0,0,0,.46) 43%,rgba(0,0,0,.53) 47%,rgba(0,0,0,.75) 69%,rgba(0,0,0,.87) 84%,rgba(0,0,0,.98) 99%,rgba(0,0,0,.94) 100%)}
+.box16 img{width:100%;height:auto}
+.box16 .box-content{padding:20px;margin-bottom:20px;bottom:0;z-index:1}
+.box16 .title{font-size:22px;font-weight:700;text-transform:uppercase;margin:0 0 10px}
+.box16 .post{display:block;padding:8px 0;font-size:15px}
+.box16 .social li a,.box17 .icon li a{border-radius:50%;font-size:20px;color:#fff}
+.box16:hover .post,.box16:hover .title{transform:translateY(0)}
+.box16 .social{list-style:none;padding:0 0 5px;margin:40px 0 25px;opacity:0;position:relative;transform:perspective(500px) rotateX(-90deg) rotateY(0) rotateZ(0);transition:all .6s cubic-bezier(0,0,.58,1) 0s}
+.box16:hover .social{opacity:1;transform:perspective(500px) rotateX(0) rotateY(0) rotateZ(0)}
+.box16 .social:before{content:"";width:50px;height:2px;background:#fff;margin:0 auto;position:absolute;top:-23px;left:0;right:0}
+.box16 .social li{display:inline-block}
+.box16 .social li a{display:block;width:40px;height:40px;line-height:40px;background:darkgreen;;margin-right:10px;transition:all .3s ease 0s}
+.box17 .icon li,.box17 .icon li a{display:inline-block}
+.box16 .social li a:hover{background:darkgreen ;}
+.box16 .social li:last-child a{margin-right:0}
+@media only screen and (max-width:990px){.box16{margin-bottom:30px}
+}
+.my{
+    background-image: url("images1/reservation_bg4.png");
+}
+.my1{
+    background-color: #cfb4e4;
+    background-image: url("images1/f2.png");
+}
+.my2{
+    background-image: url("images1/f.png");
+
+    
+    
+}
+#n8{
+    background-image: url("images1/f2.png");
+}
+.my8{
+    background-image: url("images1/f2.png");
+    background-color: white;
+}
+.my5{    background-image: url("images1/f.png");
+
+
+}
+.my3{background-image: url("images1/f.png");
+    
+}
+ #my0{
+     background-image: url("images1/f2.png");
+ }       
+        
+#my13{
+    background-image: url("images1/f2.png");
+    background-color: white;
+}
+#my09{
+
+    background-image: url("images1/f2.png");
+}
+#my08{
+    background-color: white;
+}
+#my06{
+    background-image: url("images1/f2.png");
+    background:darkgreen;
+  
+}
+#my05{
+        background:darkgreen ;
+
+}
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  .box15{position:relative}
+  .box15 img{width:100%;height:auto}
+  .box15 .box-content{width:100%;height:100%;position:absolute;top:0;left:0;transition:all .5s ease 0s}
+  .box15:hover .box-content{background-color:rgba(255,242,242,.8)}
+  .box15 .box-content:after,.box15 .box-content:before{content:"";width:50px;height:50px;position:absolute;opacity:0;transform:scale(1.5);transition:all .6s ease .3s}
+  .box15 .box-content:before{border-left:1px solid #040404;border-top:1px solid #040404;top:19px;left:19px}
+  .box15 .box-content:after{border-bottom:1px solid #040404;border-right:1px solid #040404;bottom:19px;right:19px}
+  .box15:hover .box-content:after,.box15:hover .box-content:before{opacity:1;transform:scale(1)}
+  .box15 .title{font-size:22px;color:#000;margin:0;position:relative;top:0;opacity:0;transition:all 1s ease 10ms}
+  .box15:hover .title{top:39%;opacity:1;transition:all .5s cubic-bezier(1,-.53,.405,1.425) 10ms}
+  .box15 .title:after{content:"";width:0;height:1px;background:#040404;position:absolute;bottom:-8px;left:0;right:0;margin:0 auto;transition:all 1s ease 0s}
+  .box15:hover .title:after{width:80%;transition:all 1s ease .8s}
+  .box15 .icon{width:100%;margin:0 auto;position:absolute;bottom:0;opacity:0;transition-duration:.6s;transition-timing-function:cubic-bezier(1,-.53,.405,1.425);transition-delay:.1s}
+  .box15:hover .icon{bottom:39%;opacity:1}
+  .box15 .icon li{display:inline-block}
+  .box15 .icon li a{display:block;width:40px;height:40px;line-height:40px;border-radius:50%;font-size:18px;color:#000;border:1px solid #000;margin-right:5px;transition:all .3s ease-in-out 0s}
+  .box15 .icon li a:hover{background:#000;color:#fff}
+  @media only screen and (max-width:990px){.box15{margin-bottom:30px}
+  }
+
+.my6{    background: url("images1/f2.png");
+
+    background-color: darkgrey;
+    text-decoration-color: cornsilk;
+}
+.my7{
+    background-color: black;
+}
+.my8{
+    background-color: rgba(0, 0, 0, 0.445);
+}
+.my9{
+    background: url("images1/doctor-fight-against-corona-virus-illustration-concept_3300-119.jpg");
+    background-color: black;
+}-round-lg{
+    border-radius: 22.5px;
+    }
+    .btn-round{
+    border-radius: 17px;
+    }
+    .btn-round-sm{
+    border-radius: 15px;
+    }
+    .btn-round-xs{
+    border-radius: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+    .rows{
+        background:darkgreen;
+     
+    }
+    

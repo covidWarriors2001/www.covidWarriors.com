@@ -1,0 +1,1269 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    
+
+<head>
+
+        <!-- Meta -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+
+        <!-- Title -->
+        <title>OnlineLibrary</title>
+
+        <!-- Favicon -->
+        <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i%7CLato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        
+        <!-- Mobile Menu -->
+        <link href="css/mmenu.css" rel="stylesheet" type="text/css" />
+        <link href="css/mmenu.positioning.css" rel="stylesheet" type="text/css" />
+
+        <!-- Stylesheet -->
+        <link href="style.css" rel="stylesheet" type="text/css" />
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body class="layout-v2">
+<!-- header-start -->
+    
+    <!-- header-end -->
+        <!-- End: Header Section -->
+        
+        <!-- Start: Slider Section -->
+ 
+        <div data-ride="carousel" class="carousel slide" id="home-v1-header-carousel">
+            <!-- Carousel slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <figure>
+                        <img alt="Home Slide" src="images/header-slider/home-v2/header-slide.jpg" />
+                    </figure>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h3>Online Learning Anytime, Anywhere!</h3>
+                            <h2>Welcome to the best Ebooks Library</h2>
+                            <p>We have best collections of more than 40k books .Here you find books according to your interests . </p>
+<h3>One CLICK download</h3>
+                            <div class="slide-buttons hidden-sm hidden-xs">    
+                                <a href="#" class="btn btn-primary">Read More</a>
+                                <a href="#" class="btn btn-default">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img alt="Home Slide" src="images/header-slider/home-v2/header-slide.jpg" />
+                    </figure>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h3>Online Learning Anytime, Anywhere!</h3>
+                            <h2>Download audiobooks</h2>
+                            <p>We have more 30k audio books .Simply click and download</p>
+                            <div class="slide-buttons hidden-sm hidden-xs">    
+                                <a href="#" class="btn btn-primary">Read More</a>
+                                <a href="#" class="btn btn-default">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <figure>
+                        <img alt="Home Slide" src="images/header-slider/home-v2/header-slide.jpg" />
+                    </figure>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h3>Online Learning Anytime, Anywhere!</h3>
+                            <h2>Free access to premium books</h2>
+                            <p>No need to visit bookstore ,simply click and enjoy premium books from publicatiob like cengage .</p>
+
+                            <div class="slide-buttons hidden-sm hidden-xs">    
+                                <a href="#" class="btn btn-primary">Read More</a>
+                                <a href="#" class="btn btn-default">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#home-v1-header-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#home-v1-header-carousel" data-slide-to="1"></li>
+                <li data-target="#home-v1-header-carousel" data-slide-to="2"></li>
+            </ol>
+        </div>
+        <!-- End: Slider Section -->
+
+        <!-- Start: Search Section -->
+        <section class="search-filters">
+            <div class="container">
+                <div class="filter-box">
+                    <h3>What are you looking for at the library?</h3>
+                    <form action="http://libraria.demo.presstigers.com/index.html" method="get">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-group">
+                                <label class="sr-only" for="keywords">Search by Keyword</label>
+                                <input class="form-control" placeholder="Search by Keyword" id="keywords" name="keywords" type="text">
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="form-group">
+                                <select name="catalog" id="catalog" class="form-control">
+                                    <option>Subject</option>
+                                    <option>Physics</option>
+                                    <option>Chemistry </option>
+                                    <option>Mathematics </option>
+                                    <option>English</option>
+                                    <option>Hindi</option>
+<option>JEE</option>
+<option>History</option>
+<option>Political Science</option>
+<option></option>
+<option>Biology</option>
+<option>Psychology</option><option>Economics</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="form-group">
+                                <select name="category" id="category" class="form-control">
+                                    <option>All Categories</option>
+                                    <option>Competion</option>
+                                    <option>CBSE Board</option>
+                                    <option>UP Board</option>
+                                    <option>Any other state Board</option>
+                                    <option>Entertainment</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6">
+                            <div class="form-group">
+                                <input class="form-control" type="submit" value="Search">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- End: Search Section -->
+
+        <!-- Start: Features -->
+        <section class="features">
+            <div class="container">
+                <ul>
+                    <li class="yellow-hover">
+                        <div class="feature-box">
+                            <i class="yellow"></i>
+                            <h3>Books</h3>
+                            <p>Reqding good books is very important . So we provide you with the best Online collection of books with more than 40k books.</p>
+                            <a class="yellow" href="#">
+                                View Selection <i class="fa fa-long-arrow-right"></i>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="light-green-hover">
+                        <div class="feature-box">
+                            <i class="light-green"></i>
+                            <h3>eBooks</h3>
+                            <p>One click download !!!! Enjoy any books for offline reading .</p>
+                            <a class="light-green" href="#">
+                                View Selection <i class="fa fa-long-arrow-right"></i>
+                            </a>
+                        </div>
+                    </li>
+              
+                    <li class="red-hover">
+                        <div class="feature-box">
+                            <i class="red"></i>
+                            <h3>Magazines and novels</h3>
+                            <p>Learning is fun.Without entertainment you will be exhausted . Here we also provide you magazines,story books and novels.</p>
+                            <a class="red" href="#">
+                                View Selection <i class="fa fa-long-arrow-right"></i>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="violet-hover">
+                        <div class="feature-box">
+                            <i class="violet"></i>
+                            <h3>Audiobooks </h3>
+                            <p>We have more than 200 audio books . It will help you to better understand and also improve your listening skills.</p>
+                            <a class="violet" href="#">
+                                View Selection <i class="fa fa-long-arrow-right"></i>
+                            </a>
+                        </div>
+                    </li>
+                   
+                </ul>
+            </div>
+        </section>
+        <!-- End: Features -->
+
+        <!-- Start: Category Filter -->
+        <section class="category-filter section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="center-content">
+                        <h2 class="section-title">View your books</h2>
+                        <span class="underline center"></span>
+                        <p class="lead">Click on download to directly start download of the ebooks.I you cannot get any book you can ask for it in complaint section. </p>
+                    </div>
+                    <div class="filter-buttons">
+                        <div class="filter btn" data-filter="all">All Books</div>
+                        <div class="filter btn" data-filter=".maths">Mathematics</div>
+                        <div class="filter btn" data-filter=".physics">Physics</div>
+                        <div class="filter btn" data-filter=".chemistry">Chemistry</div>
+                        <div class="filter btn" data-filter=".english">English</div>
+                        <div class="filter btn" data-filter=".hindi">Hindi</div>
+                        <div class="filter btn" data-filter=".jee">JEE preparation</div>
+                    </div>
+                    <div id="category-filter">
+                        <ul class="category-list">
+                            <li class="category-item physics">
+                                <figure>
+                                    <img src="images/category-filter/home-v2/category-filter-img-01.jpg" width="270" height="424" alt="New Releaase" />
+                                    <figcaption class="bg-yellow">
+                                        <div class="diamond">
+                                            <i class="book"></i>
+                                        </div>
+                                        <div class="info-block">
+                                            <h4>Physics  Part 1</h4>
+                                            <span class="author"><strong>Publication: </strong> NCERT</span>
+                                            <span class="author"><strong>ISBN:</strong> 9781581573268</span>
+                                            <div class="rating">
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                            </div>
+                                            
+                                            <h4><a href="http://ncert.nic.in/textbook/pdf/leph1dd.zip">
+Download<i class="fa fa-long-arrow-right"></i></a></h4>
+                                            <ol>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To Cart">
+                                                        <i class="fa fa-shopping-cart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To List">
+                                                        <i class="fa fa-heart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Send Email">
+                                                        <i class="fa fa-envelope"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Share This">
+                                                        <i class="fa fa-share-alt"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="View Image">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>
+                                                </li>
+                                            </ol>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li class="category-item physics">
+                                <figure>
+                                    <img src="images/category-filter/home-v2/category-filter-img-02.jpg" width="270" height="424" alt="New Releaase" />
+                                    <figcaption class="bg-yellow">
+                                        <div class="diamond">
+                                            <i class="book"></i>
+                                        </div>
+                                        <div class="info-block">
+                                            <h4>Physics Part 2</h4>
+                                            <span class="author"><strong>Publication: </strong> NCERT </span>
+                                            <span class="author"><strong>ISBN:</strong> 9781581573268</span>
+                                            <div class="rating">
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                            </div>
+                                            
+                                          <h4>  <a href="http://ncert.nic.in/textbook/pdf/leph2dd.zip">Download<i class="fa fa-long-arrow-right"></i></a></h4>
+                                            <ol>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To Cart">
+                                                        <i class="fa fa-shopping-cart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To List">
+                                                        <i class="fa fa-heart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Send Email">
+                                                        <i class="fa fa-envelope"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Share This">
+                                                        <i class="fa fa-share-alt"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="View Image">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>
+                                                </li>
+                                            </ol>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+
+  <li class="category-item jee">
+                                <figure>
+                                    <img src="images/category-filter/home-v2/category-filter-img-15.jpg" width="270" height="424"  alt="New Releaase" />
+                                    <figcaption class="bg-blue">
+                                        <div class="diamond">
+                                            <i class="dvd"></i>
+                                        </div>
+                                        <div class="info-block">
+                                            <h4>Guide to Objective Physics</h4>
+                                          <span class="author"><strong>Publication: </strong> Pearson</span>
+                                            <span class="author"><strong>ISBN:</strong> 9781581573268</span>
+                                            <div class="rating">
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                            </div>
+                                                  <h4>   <a href="https://drive.google.com/file/d/1zbKPvOJFido-S4I887BwoLOvSv5Mpkdw/view">Download<i class="fa fa-long-arrow-right"></i></a>
+                                            <ol>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To Cart">
+                                                        <i class="fa fa-shopping-cart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To List">
+                                                        <i class="fa fa-heart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Send Email">
+                                                        <i class="fa fa-envelope"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Share This">
+                                                        <i class="fa fa-share-alt"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="View Image">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>
+                                                </li>
+                                            </ol>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li class="category-item chemistry">
+                                <figure>
+                                    <img src="images/category-filter/home-v2/category-filter-img-03.jpg"  width="270" height="424" alt="New Releaase" />
+                                    <figcaption class="bg-blue">
+                                        <div class="diamond">
+                                            <i class="dvd"></i>
+                                        </div>
+                                        <div class="info-block">
+                                            <h4>Chemistry Part 1</h4>
+                                            <span class="author"><strong>Publication: </strong> NCERT</span>
+                                            <span class="author"><strong>ISBN:</strong> 9781581573268</span>
+                                            <div class="rating">
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                            </div>
+                                            
+                                            <h4> <a href="http://ncert.nic.in/textbook/pdf/lech1dd.zip">Download <i class="fa fa-long-arrow-right"></i></a>
+                                            <ol>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To Cart">
+                                                        <i class="fa fa-shopping-cart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To List">
+                                                        <i class="fa fa-heart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Send Email">
+                                                        <i class="fa fa-envelope"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Share This">
+                                                        <i class="fa fa-share-alt"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="View Image">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>
+                                                </li>
+                                            </ol>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li class="category-item chemistry">
+                                <figure>
+                                    <img src="images/category-filter/home-v2/category-filter-img-04.jpg" width="270" height="424"  alt="New Releaase" />
+                                    <figcaption class="bg-blue">
+                                        <div class="diamond">
+                                            <i class="dvd"></i>
+                                        </div>
+                                        <div class="info-block">
+                                            <h4>Chemistry Part 2</h4>
+                                          <span class="author"><strong>Publication: </strong> NCERT</span>
+                                            <span class="author"><strong>ISBN:</strong> 9781581573268</span>
+                                            <div class="rating">
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                            </div>
+                                                  <h4>   <a href="http://ncert.nic.in/textbook/pdf/lech2dd.zip">Download<i class="fa fa-long-arrow-right"></i></a>
+                                            <ol>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To Cart">
+                                                        <i class="fa fa-shopping-cart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To List">
+                                                        <i class="fa fa-heart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Send Email">
+                                                        <i class="fa fa-envelope"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Share This">
+                                                        <i class="fa fa-share-alt"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="View Image">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>
+                                                </li>
+                                            </ol>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+
+   <li class="category-item jee">
+                                <figure>
+                                    <img src="images/category-filter/home-v2/category-filter-img-11.jpg" width="270" height="424"  alt="New Releaase" />
+                                    <figcaption class="bg-blue">
+                                        <div class="diamond">
+                                            <i class="dvd"></i>
+                                        </div>
+                                        <div class="info-block">
+                                            <h4>Physical Chemistry by Narendra Awasti</h4>
+                                          <span class="author"><strong>Publication: </strong> Balaji</span>
+                                            <span class="author"><strong>ISBN:</strong> 9781581573268</span>
+                                            <div class="rating">
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                            </div>
+                                                  <h4>   <a href="https://drive.google.com/file/d/1JcR3y1CHrCy3rNrwDXnZ-pGkfgkAILVS/view">Download<i class="fa fa-long-arrow-right"></i></a>
+                                            <ol>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To Cart">
+                                                        <i class="fa fa-shopping-cart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To List">
+                                                        <i class="fa fa-heart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Send Email">
+                                                        <i class="fa fa-envelope"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Share This">
+                                                        <i class="fa fa-share-alt"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="View Image">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>
+                                                </li>
+                                            </ol>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+<li class="category-item jee">
+                                <figure>
+                                    <img src="images/category-filter/home-v2/category-filter-img-12.jpg" width="270" height="424"  alt="New Releaase" />
+                                    <figcaption class="bg-blue">
+                                        <div class="diamond">
+                                            <i class="dvd"></i>
+                                        </div>
+                                        <div class="info-block">
+                                            <h4>Organic Chemistry by Ms Chauhan</h4>
+                                          <span class="author"><strong>Publication: </strong> Balaji</span>
+                                            <span class="author"><strong>ISBN:</strong> 9781581573268</span>
+                                            <div class="rating">
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                            </div>
+                                                  <h4>   <a href="https://drive.google.com/file/d/1WAvz_DswUEDgG41wgOLErvD4eHBooWgF/view">Download<i class="fa fa-long-arrow-right"></i></a>
+                                            <ol>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To Cart">
+                                                        <i class="fa fa-shopping-cart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To List">
+                                                        <i class="fa fa-heart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Send Email">
+                                                        <i class="fa fa-envelope"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Share This">
+                                                        <i class="fa fa-share-alt"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="View Image">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>
+                                                </li>
+                                            </ol>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+<li class="category-item jee">
+                                <figure>
+                                    <img src="images/category-filter/home-v2/category-filter-img-13.jpg" width="270" height="424"  alt="New Releaase" />
+                                    <figcaption class="bg-blue">
+                                        <div class="diamond">
+                                            <i class="dvd"></i>
+                                        </div>
+                                        <div class="info-block">
+                                            <h4>GRB Inorganic Chemistry by OP Tandan</h4>
+                                          <span class="author"><strong>Publication: </strong> GRB</span>
+                                            <span class="author"><strong>ISBN:</strong> 9781581573268</span>
+                                            <div class="rating">
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                            </div>
+                                                  <h4>   <a href="https://drive.google.com/file/d/1klwJSsL8Byb4L07YqayammokidPE6gfF/view">Download<i class="fa fa-long-arrow-right"></i></a>
+                                            <ol>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To Cart">
+                                                        <i class="fa fa-shopping-cart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To List">
+                                                        <i class="fa fa-heart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Send Email">
+                                                        <i class="fa fa-envelope"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Share This">
+                                                        <i class="fa fa-share-alt"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="View Image">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>
+                                                </li>
+                                            </ol>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li class="category-item maths">
+                                <figure>
+                                    <img src="images/category-filter/home-v2/category-filter-img-05.jpg" width="270" height="424" alt="New Releaase" />
+                                    <figcaption class="bg-green">
+                                        <div class="diamond">
+                                            <i class="eaudio"></i>
+                                        </div>
+                                        <div class="info-block">
+                                            <h4>Mathematics Part 1</h4>
+                                            <span class="author"><strong>Publication: </strong> Ncert</span>
+                                            <span class="author"><strong>ISBN:</strong> 9781581573268</span>
+                                            <div class="rating">
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                            </div>
+                                           
+                                         <h4>    <a href="http://ncert.nic.in/textbook/pdf/lemh1dd.zip">Download<i class="fa fa-long-arrow-right"></i></a>
+                                            <ol>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To Cart">
+                                                        <i class="fa fa-shopping-cart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To List">
+                                                        <i class="fa fa-heart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Send Email">
+                                                        <i class="fa fa-envelope"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Share This">
+                                                        <i class="fa fa-share-alt"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="View Image">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>
+                                                </li>
+                                            </ol>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li class="category-item maths">
+                                <figure>
+                                    <img src="images/category-filter/home-v2/category-filter-img-06.jpg" width="270" height="424" alt="New Releaase" />
+                                    <figcaption class="bg-red">
+                                        <div class="diamond">
+                                            <i class="magazine"></i>
+                                        </div>
+                                        <div class="info-block">
+                                            <h4>Mathematics Part 2</h4>
+                                           <span class="author"><strong>Publication: </strong> NCERT</span>
+                                            <span class="author"><strong>ISBN:</strong> 9781581573268</span>
+                                            <div class="rating">
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                            </div>
+                                         
+                                          <h4>   <a href="http://ncert.nic.in/textbook/pdf/lemh2dd.zip">Download<i class="fa fa-long-arrow-right"></i></a>
+                                            <ol>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To Cart">
+                                                        <i class="fa fa-shopping-cart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To List">
+                                                        <i class="fa fa-heart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Send Email">
+                                                        <i class="fa fa-envelope"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Share This">
+                                                        <i class="fa fa-share-alt"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="View Image">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>
+                                                </li>
+                                            </ol>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+
+     <li class="category-item jee" >
+                                <figure>
+                                    <img src="images/category-filter/home-v2/category-filter-img-14.jpg" width="270" height="424" alt="New Releaase" />
+                                    <figcaption class="bg-green">
+                                        <div class="diamond">
+                                            <i class="eaudio"></i>
+                                        </div>
+                                        <div class="info-block">
+                                            <h4>Objective Mathematics For JEE By SK Goyal</h4>
+                                            <span class="author"><strong>Publication: </strong> Ncert</span>
+                                            <span class="author"><strong>ISBN:</strong> 9781581573268</span>
+                                            <div class="rating">
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                            </div>
+                                           
+                                         <h4>    <a href="http://ncert.nic.in/textbook/pdf/lemh1dd.zip">Download<i class="fa fa-long-arrow-right"></i></a>
+                                            <ol>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To Cart">
+                                                        <i class="fa fa-shopping-cart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To List">
+                                                        <i class="fa fa-heart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Send Email">
+                                                        <i class="fa fa-envelope"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Share This">
+                                                        <i class="fa fa-share-alt"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="View Image">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>
+                                                </li>
+                                            </ol>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>                 
+           <li class="category-item english">
+                                <figure>
+                                    <img src="images/category-filter/home-v2/category-filter-img-07.jpg" width="270" height="424"  alt="New Releaase" />
+                                    <figcaption class="bg-red">
+                                        <div class="diamond">
+                                            <i class="magazine"></i>
+                                        </div>
+                                        <div class="info-block">
+                                            <h4>English Flamingo</h4>
+                                          <span class="author"><strong>Publication: </strong> NCERT</span>
+                                            <span class="author"><strong>ISBN:</strong> 9781581573268</span>
+                                            <div class="rating">
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                            </div>
+                                            
+                                           <h4>  <a href="http://ncert.nic.in/textbook/pdf/lefl1dd.zip">Download<i class="fa fa-long-arrow-right"></i></a>
+                                            <ol>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To Cart">
+                                                        <i class="fa fa-shopping-cart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To List">
+                                                        <i class="fa fa-heart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Send Email">
+                                                        <i class="fa fa-envelope"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Share This">
+                                                        <i class="fa fa-share-alt"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="View Image">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>
+                                                </li>
+                                            </ol>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>                 
+      <li class="category-item english">
+                                <figure>
+                                    <img src="images/category-filter/home-v2/category-filter-img-08.jpg" alt="New Releaase" />
+                                    <figcaption class="bg-light-green">
+                                        <div class="diamond">
+                                            <i class="ebook"></i>
+                                        </div>
+                                        <div class="info-block">
+                                            <h4>English Vistas</h4>
+                                          <span class="author"><strong>Publication: </strong> NCERT</span>
+                                            <span class="author"><strong>ISBN:</strong> 9781581573268</span>
+                                            <div class="rating">
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                            </div>
+                                           
+                                           <h4>  <a href="http://ncert.nic.in/textbook/pdf/levt1dd.zip">Download <i class="fa fa-long-arrow-right"></i></a>
+                                            <ol>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To Cart">
+                                                        <i class="fa fa-shopping-cart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To List">
+                                                        <i class="fa fa-heart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Send Email">
+                                                        <i class="fa fa-envelope"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Share This">
+                                                        <i class="fa fa-share-alt"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="View Image">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>
+                                                </li>
+                                            </ol>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>                      
+
+
+  <li class="category-item hindi">
+                                <figure>
+                                    <img src="images/category-filter/home-v2/category-filter-img-09.jpg" width="270" height="424" alt="New Releaase" />
+                                    <figcaption class="bg-red">
+                                        <div class="diamond">
+                                            <i class="magazine"></i>
+                                        </div>
+                                        <div class="info-block">
+                                            <h4>वितान भाग 2</h4>
+                                          <span class="author"><strong>Publication: </strong> NCERT</span>
+                                            <span class="author"><strong>ISBN:</strong> 9781581573268</span>
+                                            <div class="rating">
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                            </div>
+                                            
+                                           <h4>  <a href="http://ncert.nic.in/textbook/pdf/lhvt1dd.zip">Download <i class="fa fa-long-arrow-right"></i></a>
+                                            <ol>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To Cart">
+                                                        <i class="fa fa-shopping-cart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To List">
+                                                        <i class="fa fa-heart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Send Email">
+                                                        <i class="fa fa-envelope"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Share This">
+                                                        <i class="fa fa-share-alt"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="View Image">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>
+                                                </li>
+                                            </ol>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+<li class="category-item hindi">
+                                <figure>
+                                    <img src="images/category-filter/home-v2/category-filter-img-10.jpg" width="270" height="424" alt="New Releaase" />
+                                    <figcaption class="bg-red">
+                                        <div class="diamond">
+                                            <i class="magazine"></i>
+                                        </div>
+                                        <div class="info-block">
+                                            <h4>अंतराल</h4>
+<span class="author"><strong>Publication: </strong> NCERT</span>
+                                            <span class="author"><strong>ISBN:</strong> 9781581573268</span>
+                                            <div class="rating">
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                                <span>☆</span>
+                                            </div>
+                                         
+                                           <h4>  <a href="http://ncert.nic.in/textbook/pdf/lhan1dd.zip">Download<i class="fa fa-long-arrow-right"></i></a>
+                                            <ol>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To Cart">
+                                                        <i class="fa fa-shopping-cart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Add To List">
+                                                        <i class="fa fa-heart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Send Email">
+                                                        <i class="fa fa-envelope"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="Share This">
+                                                        <i class="fa fa-share-alt"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" data-toggle="blog-tags" data-placement="top" title="View Image">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>
+                                                </li>
+                                            </ol>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Start: Category Filter -->
+
+        <!-- Start: Welcome Section -->
+        <section class="welcome-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="welcome-wrap">
+                            <div class="welcome-text">
+                                <h2 class="section-title">This is Our Online Library</h2>
+                                <span class="underline left"></span>
+                                <p>Our seevice is specially for those student whose studies are suffered due to COVID-19. Our aim is to provide free and quality Education so and everyone no matters rich or poor can easily avail our services. We show books according to your interests you fill during register .You can change your choices anytime.</p><p>
+All books can easily be downloaded by one click. We provide audiobooks and magazines as well .So our library in short  is "all in ine library"</p>
+                                <a class="btn btn-primary" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="welcome-image">
+                            <img src="images/wellcome-image.jpg" class="algin-right" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End: Welcome Section -->
+
+        <!-- Start: Facts Counter -->
+        <div class="layout-v2-counter">
+            <div class="facts-counter">
+                <div class="container">
+                    <div class="row">
+                        <ul>
+                            <li class="color-light-green">
+                                <div class="fact-item">
+                                    <div class="fact-icon">
+                                        <i class="ebook"></i>
+                                    </div>
+                                    <span>eBooks<strong class="fact-counter">45780</strong></span>
+                                </div>
+                            </li>
+                         <li class="color-green">
+                                <div class="fact-item">
+                                    <div class="fact-icon">
+                                        <i class="eaudio"></i>
+                                    </div>
+                                    <span>eAudio<strong class="fact-counter">32450</strong></span>
+                                </div>
+                            </li>
+                            <li class="color-red">
+                                <div class="fact-item">
+                                    <div class="fact-icon">
+                                        <i class="magazine"></i>
+                                    </div>
+                                    <span>Magazine<strong class="fact-counter">14450</strong></span>
+                                </div>
+                            </li>
+                            <li class="color-light-green">
+                                <div class="fact-item">
+                                    <div class="fact-icon">
+                                          <i class="ebook"></i>
+                                    </div>
+                                    <span>Students<strong class="fact-counter">50000</strong></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End: Facts Counter -->
+
+        
+        
+        <!-- Start: Footer -->
+        <footer class="site-footer">
+            <div class="container">
+                <div id="footer-widgets">
+                    <div class="row">
+                        <div class="col-md-2 widget-container">
+                            <div class="widget widget_social_icons">
+                                <ul>
+                                    <li>
+                                        <a class="facebook" href="#" target="_blank">
+                                            <span>
+                                                <i class="fa fa-facebook-f"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="twitter" href="#" target="_blank">
+                                            <span>
+                                                <i class="fa fa-twitter"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="google" href="#" target="_blank">
+                                            <span>
+                                                <i class="fa fa-google-plus"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="rss" href="#" target="_blank">
+                                            <span>
+                                                <i class="fa fa-rss"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="linkedin" href="#" target="_blank">
+                                            <span>
+                                                <i class="fa fa-linkedin"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="youtube" href="#" target="_blank">
+                                            <span>
+                                                <i class="fa fa-youtube"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 widget-container">
+                            <div id="text-2" class="widget widget_text">
+                                <h3 class="footer-widget-title">About Online Library</h3>
+                                <span class="underline left"></span>
+                                <div class="textwidget">
+                                    
+                                </div>
+                                <address>
+                                    <div class="info">
+                                        <i class="fa fa-location-arrow"></i>
+                                        <span>21 Delhi vasant vihar Viredu headquaters</span>
+                                    </div>
+                                    <div class="info">
+                                        <i class="fa fa-envelope"></i>
+                                        <span><a href="mailto:support@libraria.com">Hackcovid@gmail.com</a></span>
+                                    </div>
+                                    <div class="info">
+                                        <i class="fa fa-phone"></i>
+                                        <span><a href="tel:+917080518395"></a></span>
+                                    </div>
+                                </address>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6 widget-container">
+                            <div id="nav_menu-2" class="widget widget_nav_menu">
+                                <h3 class="footer-widget-title">Quick Links</h3>
+                                <span class="underline left"></span>
+                                <div class="menu-quick-links-container">
+                                    <ul id="menu-quick-links" class="menu">
+                                        <li><a href="#">Library News</a></li>
+                                        
+                                        <li><a href="#">About us</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix hidden-lg hidden-md hidden-xs tablet-margin-bottom"></div>
+                        <div class="col-md-2 col-sm-6 widget-container">
+                            <div id="text-4" class="widget widget_text">
+                                <h3 class="footer-widget-title">Timing</h3>
+                                <span class="underline left"></span>
+                                <div class="timming-text-widget">
+<p>Open 24 hours</p>
+                                       <ul>
+                                        <li><a href="#">Closings</a></li>
+                                        <li><a href="#">Branches</a></li>
+                                    </ul>
+                                </div>
+                            </div>			
+                        </div>
+                        
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>			
+                        </div>
+                    </div>
+                </div>                
+            </div>
+            <div class="sub-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-text col-md-3">
+                           
+                        </div>
+                        <div class="col-md-9 pull-right">
+                            <ul>
+                                <li><a href="index-2.html">Home</a></li>
+                                <li><a href="books-media-list-view.html">Books &amp; Media</a></li>
+                                <li><a href="news-events-list-view.html">News &amp; Events</a></li>
+                                <li><a href="#">Healthcare</a></li>
+                                <li><a href="services.html">Online shopping</a></li>
+                                <li><a href="#">Entertainment </a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End: Footer -->
+
+        <!-- jQuery Latest Version 1.x -->
+        <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+        
+        <!-- jQuery UI -->
+        <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+        
+        <!-- jQuery Easing -->
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+
+        <!-- Bootstrap -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        
+        <!-- Mobile Menu -->
+        <script type="text/javascript" src="js/mmenu.min.js"></script>
+        
+        <!-- Harvey - State manager for media queries -->
+        <script type="text/javascript" src="js/harvey.min.js"></script>
+        
+        <!-- Waypoints - Load Elements on View -->
+        <script type="text/javascript" src="js/waypoints.min.js"></script>
+
+        <!-- Facts Counter -->
+        <script type="text/javascript" src="js/facts.counter.min.js"></script>
+
+        <!-- MixItUp - Category Filter -->
+        <script type="text/javascript" src="js/mixitup.min.js"></script>
+
+        <!-- Owl Carousel -->
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+        
+        <!-- Accordion -->
+        <script type="text/javascript" src="js/accordion.min.js"></script>
+        
+        <!-- Responsive Tabs -->
+        <script type="text/javascript" src="js/responsive.tabs.min.js"></script>
+        
+        <!-- Responsive Table -->
+        <script type="text/javascript" src="js/responsive.table.min.js"></script>
+        
+        <!-- Masonry -->
+        <script type="text/javascript" src="js/masonry.min.js"></script>
+        
+        <!-- Carousel Swipe -->
+        <script type="text/javascript" src="js/carousel.swipe.min.js"></script>
+        
+        <!-- bxSlider -->
+        <script type="text/javascript" src="js/bxslider.min.js"></script>
+        
+        <!-- Custom Scripts -->
+        <script type="text/javascript" src="js/main.js"></script>
+
+    </body>
+
+
+</html>
